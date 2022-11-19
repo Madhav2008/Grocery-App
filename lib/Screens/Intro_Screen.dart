@@ -41,7 +41,7 @@ class IntroScreen extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,
-                color: Colors.grey[700],
+                color: Colors.grey,
               ),
             ),
             const SizedBox(height: 24),
