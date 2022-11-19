@@ -19,7 +19,7 @@ class IntroScreen extends StatelessWidget {
                 top: 120,
                 bottom: 20,
               ),
-              child: Image.asset('lib/images/avocado.png'),
+              child: Image.asset('../images/avocado.png'),
             ),
 
             Padding(
