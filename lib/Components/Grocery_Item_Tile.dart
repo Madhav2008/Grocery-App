@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -38,14 +37,12 @@ class GroceryItemTile extends StatelessWidget {
                 height: 64,
               ),
             ),
-
             Text(
               itemName,
               style: const TextStyle(
                 fontSize: 16,
               ),
             ),
-
             MaterialButton(
               onPressed: onPressed,
               color: color,
