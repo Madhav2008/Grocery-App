@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 import '../components/grocery_item_tile.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomePage({super.key});
+  const HomeScreen({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
