@@ -40,7 +40,6 @@ class GroceryItemTile extends StatelessWidget {
               ),
             ),
 
-            // item name
             Text(
               itemName,
               style: const TextStyle(
