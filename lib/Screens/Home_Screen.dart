@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
                 color: Colors.grey[200],
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.person,
                 color: Colors.grey,
               ),
