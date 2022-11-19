@@ -22,7 +22,7 @@ class IntroScreen extends StatelessWidget {
               child: Image.asset(
                 '../assets/images/intro.png',
                 width: 400,
-                height: 400,
+                height: 300,
               ),
             ),
             Padding(
