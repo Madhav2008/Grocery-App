@@ -75,7 +75,6 @@ class CartPage extends StatelessWidget {
                 ),
               ),
 
-              // total amount + pay now
 
               Padding(
                 padding: const EdgeInsets.all(36.0),
@@ -97,7 +96,7 @@ class CartPage extends StatelessWidget {
                           ),
 
                           const SizedBox(height: 8),
-                          
+
                           Text(
                             '\$${value.calculateTotal()}',
                             style: const TextStyle(
