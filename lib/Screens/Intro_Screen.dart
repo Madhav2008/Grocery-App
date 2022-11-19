@@ -36,12 +36,15 @@ class IntroScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Text(
-              'Groceer gives you fresh vegetables and fruits. Order fresh items from groceer.',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 17,
-                color: Colors.grey[600],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'Groceer gives you fresh vegetables and fruits. Order fresh items from groceer.',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 17,
+                  color: Colors.grey[600],
+                ),
               ),
             ),
             const SizedBox(height: 24),
