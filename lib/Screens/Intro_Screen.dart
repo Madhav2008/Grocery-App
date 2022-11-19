@@ -30,7 +30,7 @@ class IntroScreen extends StatelessWidget {
               child: Text(
                 'We deliver groceries at your doorstep',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.
                   // fontSize: 36,
                   // fontWeight: FontWeight.bold,
                 ),
