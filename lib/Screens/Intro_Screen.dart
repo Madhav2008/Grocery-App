@@ -67,7 +67,7 @@ class IntroScreen extends StatelessWidget {
                     "Get Started",
                     style: TextStyle(
                       color: Colors.white,
-                      // fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.bold,
                       fontSize: 18,
                     ),
                   ),
