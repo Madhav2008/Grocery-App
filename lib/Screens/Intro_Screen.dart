@@ -63,7 +63,7 @@ class IntroScreen extends StatelessWidget {
                   color: const Color(0xff7785DB),
                 ),
                 child: Center(
-                  child: const Text(
+                  child: Text(
                     "Get Started",
                     style: TextStyle(
                       color: Colors.white,
