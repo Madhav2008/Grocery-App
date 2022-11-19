@@ -110,7 +110,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
 
-          // recent orders -> show last 3
           Expanded(
             child: Consumer<CartModel>(
               builder: (context, value, child) {
