@@ -48,7 +48,7 @@ class CartPage extends StatelessWidget {
                         child: Container(
                           decoration: BoxDecoration(
                               color: Colors.grey[200],
-                              borderRadius: BorderRadius.circular(8)),
+                              borderRadius: BorderRadius.circular(8),),
                           child: ListTile(
                             leading: Image.asset(
                               value.cartItems[index][2],
