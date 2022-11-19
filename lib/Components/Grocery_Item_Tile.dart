@@ -23,7 +23,7 @@ class GroceryItemTile extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-          color: color,
+          color: color.shade400,
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
