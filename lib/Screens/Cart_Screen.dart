@@ -97,6 +97,7 @@ class CartPage extends StatelessWidget {
                           ),
 
                           const SizedBox(height: 8),
+                          
                           Text(
                             '\$${value.calculateTotal()}',
                             style: const TextStyle(
