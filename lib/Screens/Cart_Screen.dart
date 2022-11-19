@@ -41,7 +41,7 @@ class CartPage extends StatelessWidget {
                   padding: const EdgeInsets.all(12.0),
                   child: ListView.builder(
                     itemCount: value.cartItems.length,
-                    padding: EdgeInsets.all(12),
+                    padding: const EdgeInsets.all(12),
                     itemBuilder: (context, index) {
                       return Padding(
                         padding: const EdgeInsets.all(12.0),
