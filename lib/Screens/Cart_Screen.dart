@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:grocery_app/Models/Cart_Model.dart';
 import 'package:provider/provider.dart';
 
-import '../model/cart_model.dart';
 
 class CartPage extends StatelessWidget {
   const CartPage({super.key});
