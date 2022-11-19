@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:grocery_app/Models/Cart_Model.dart';
 import 'package:provider/provider.dart';
 
-class CartPage extends StatelessWidget {
-  const CartPage({super.key});
+class CartScreen extends StatelessWidget {
+  const CartScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
