@@ -37,7 +37,7 @@ class IntroScreen extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal:8.0),
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Text(
                 'Groceer gives you fresh vegetables and fruits. Order fresh items from groceer.',
                 textAlign: TextAlign.center,
