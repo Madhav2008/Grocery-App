@@ -74,7 +74,6 @@ class IntroScreen extends StatelessWidget {
                 ),
               ),
             ),
-
             const Spacer(),
           ],
         ),
