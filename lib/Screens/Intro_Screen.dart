@@ -29,7 +29,9 @@ class IntroScreen extends StatelessWidget {
                 'We deliver groceries at your doorstep',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.notoSerif(
-                    fontSize: 36, fontWeight: FontWeight.bold,),
+                  fontSize: 36,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
 
