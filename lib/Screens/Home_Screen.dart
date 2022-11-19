@@ -5,7 +5,7 @@ import 'package:grocery_app/Screens/Cart_Screen.dart';
 import 'package:provider/provider.dart';
 import '../components/grocery_item_tile.dart';
 
-class HomePage extends StatefulWidget {
+class HomeScreen extends StatefulWidget {
   const HomePage({super.key});
 
   @override
