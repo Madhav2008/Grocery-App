@@ -9,7 +9,7 @@ class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomePageState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomePageState extends State<HomeScreen> {
