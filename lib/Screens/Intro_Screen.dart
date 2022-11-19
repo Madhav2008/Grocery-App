@@ -20,7 +20,7 @@ class IntroScreen extends StatelessWidget {
                 bottom: 20,
               ),
               child: Image.asset(
-                '../assets/images/intro.png',width:
+                '../assets/images/intro.png',width:200
               ),
             ),
             Padding(
