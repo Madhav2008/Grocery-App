@@ -55,7 +55,7 @@ class IntroScreen extends StatelessWidget {
                   },
                 ),
               ),
-              child: Container(width:70,
+              child: Container(width: 70,
                 padding: const EdgeInsets.all(24),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(25),
