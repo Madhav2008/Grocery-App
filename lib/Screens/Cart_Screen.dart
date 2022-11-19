@@ -47,8 +47,9 @@ class CartPage extends StatelessWidget {
                         padding: const EdgeInsets.all(12.0),
                         child: Container(
                           decoration: BoxDecoration(
-                              color: Colors.grey[200],
-                              borderRadius: BorderRadius.circular(8),),
+                            color: Colors.grey[200],
+                            borderRadius: BorderRadius.circular(8),
+                          ),
                           child: ListTile(
                             leading: Image.asset(
                               value.cartItems[index][2],
@@ -94,9 +95,7 @@ class CartPage extends StatelessWidget {
                             'Total Price',
                             style: TextStyle(color: Colors.green[200]),
                           ),
-
                           const SizedBox(height: 8),
-
                           Text(
                             '\$${value.calculateTotal()}',
                             style: const TextStyle(
@@ -107,7 +106,6 @@ class CartPage extends StatelessWidget {
                           ),
                         ],
                       ),
-
                       Container(
                         decoration: BoxDecoration(
                           border: Border.all(color: Colors.green.shade200),
