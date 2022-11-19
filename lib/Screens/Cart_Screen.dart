@@ -109,7 +109,6 @@ class CartPage extends StatelessWidget {
                         ],
                       ),
 
-                      // pay now
                       Container(
                         decoration: BoxDecoration(
                           border: Border.all(color: Colors.green.shade200),
