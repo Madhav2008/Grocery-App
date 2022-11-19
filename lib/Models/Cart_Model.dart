@@ -23,7 +23,7 @@ class CartModel extends ChangeNotifier {
     [
       "Water",
       "1.00",
-      "lib/images/water.png",
+      "../assets/images/water.png",
       Colors.blue,
     ],
   ];
