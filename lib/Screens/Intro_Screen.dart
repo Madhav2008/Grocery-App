@@ -14,7 +14,7 @@ class IntroScreen extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.only(
-                left: 100.0,
+                left: 0.0,
                 right: 100.0,
                 top: 120,
                 bottom: 20,
