@@ -98,7 +98,6 @@ class _HomePageState extends State<HomePage> {
 
           const SizedBox(height: 24),
 
-          // categories -> horizontal listview
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
