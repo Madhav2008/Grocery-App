@@ -48,7 +48,6 @@ class IntroScreen extends StatelessWidget {
 
             const Spacer(),
 
-            // get started button
             GestureDetector(
               onTap: () => Navigator.pushReplacement(
                 context,
