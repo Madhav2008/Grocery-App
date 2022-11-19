@@ -23,7 +23,6 @@ class IntroScreen extends StatelessWidget {
               child: Image.asset('lib/images/avocado.png'),
             ),
 
-            // we deliver groceries at your doorstep
             Padding(
               padding: const EdgeInsets.all(28.0),
               child: Text(
