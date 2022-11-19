@@ -37,7 +37,7 @@ class IntroScreen extends StatelessWidget {
               ),
             ),
             Text(
-              'Groceer gives you fresh vegetables and fruits. Order fresh',
+              'Groceer gives you fresh vegetables and fruits. Order fresh items',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,
