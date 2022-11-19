@@ -21,7 +21,6 @@ class IntroScreen extends StatelessWidget {
               ),
               child: Image.asset('../assets/images/avocado.png'),
             ),
-
             Padding(
               padding: const EdgeInsets.all(28.0),
               child: Text(
@@ -33,7 +32,6 @@ class IntroScreen extends StatelessWidget {
                 ),
               ),
             ),
-
             Text(
               'Fresh items everyday',
               textAlign: TextAlign.center,
@@ -42,11 +40,8 @@ class IntroScreen extends StatelessWidget {
                 color: Colors.grey[700],
               ),
             ),
-
             const SizedBox(height: 24),
-
             const Spacer(),
-
             GestureDetector(
               onTap: () => Navigator.pushReplacement(
                 context,
