@@ -31,7 +31,6 @@ class GroceryItemTile extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // item image
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 40.0),
               child: Image.asset(
