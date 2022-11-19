@@ -53,7 +53,7 @@ class GroceryItemTile extends StatelessWidget {
               color: color,
               child: Text(
                 '\$$itemPrice',
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
