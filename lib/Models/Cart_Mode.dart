@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CartModel extends ChangeNotifier {
   final List _shopItems = const [
-    ["Avocado", "4.00", "lib/images/avocado.png", Colors.green],
+    ["Avocado", "4.00", "lib/images/avocado.png", Colors.green,],
     [
       "Banana",
       "2.50",
