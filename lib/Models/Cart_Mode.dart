@@ -34,7 +34,6 @@ class CartModel extends ChangeNotifier {
 
   get shopItems => _shopItems;
 
-  // add item to cart
   void addItemToCart(int index) {
     _cartItems.add(_shopItems[index]);
     notifyListeners();
