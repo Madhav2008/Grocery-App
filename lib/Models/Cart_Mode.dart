@@ -44,7 +44,6 @@ class CartModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  // calculate total pric
   String calculateTotal() {
     double totalPrice = 0;
     for (int i = 0; i < cartItems.length; i++) {
