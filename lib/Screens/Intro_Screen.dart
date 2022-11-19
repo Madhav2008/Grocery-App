@@ -33,7 +33,7 @@ class IntroScreen extends StatelessWidget {
                 style: GoogleFonts.arvo(,
                 // fontSize: 36,
                 // fontWeight: FontWeight.bold,
-                // ),
+                ),
               ),
             ),
             Text(
