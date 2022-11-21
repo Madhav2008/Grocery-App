@@ -25,7 +25,7 @@ class CartScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 24.0),
                 child: Text(
                   "My Cart",
-                  style: GoogleFonts.notoSerif(
+                  style: GoogleFonts.arvo(
                     fontSize: 36,
                     fontWeight: FontWeight.bold,
                   ),
