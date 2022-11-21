@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
               "Fresh Items",
-              style: GoogleFonts.notoSerif(
+              style: GoogleFonts.arvo(
                 //fontWeight: FontWeight.bold,
                 fontSize: 18,
               ),
