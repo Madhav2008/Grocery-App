@@ -48,7 +48,7 @@ class GroceryItemTile extends StatelessWidget {
               onPressed: onPressed,
               color: color[800],
               child: Text(
-                '\₹$itemPrice',
+                '₹$itemPrice',
                 style: GoogleFonts.arvo(
                   color: Colors.white,
                   letterSpacing: 1,
