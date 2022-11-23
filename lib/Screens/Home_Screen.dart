@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           const SizedBox(height: 48),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 24.0),
+            padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
               'Good morning,',
               style: GoogleFonts.arvo(
