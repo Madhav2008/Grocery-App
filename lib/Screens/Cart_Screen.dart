@@ -41,7 +41,7 @@ class CartScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(12),
                     itemBuilder: (context, index) {
                       return isLoading
-                      ?isEmpty
+                      ? isEmpty
                           ? Center(
                               child: Container(),
                             )
