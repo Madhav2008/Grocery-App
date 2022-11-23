@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
               'Good morning,',
-              style: TextStyle(
+              style: GoogleFonts.arvo(
                 fontSize: 20,
                 color: Colors.grey,
               ),
