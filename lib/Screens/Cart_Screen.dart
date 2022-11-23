@@ -41,58 +41,58 @@ class CartScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(12),
                     itemBuilder: (context, index) {
                       return isLoading
-                    ? isEmpty
-                        ? Container()
-                          : Padding(
-                              padding: const EdgeInsets.all(12.0),
-                              child: Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.grey[200],
-                                  borderRadius: BorderRadius.circular(8),
+                          ? isEmpty
+                              ? Container()
+                              : Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.grey[200],
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                    child: ListTile(
+                                      leading: Image.asset(
+                                        value.cartItems[index][2],
+                                        height: 36,
+                                      ),
+                                      title: Text(
+                                        value.cartItems[index][0],
+                                        style: const TextStyle(fontSize: 18),
+                                      ),
+                                      subtitle: Text(
+                                        '\$' + value.cartItems[index][1],
+                                        style: const TextStyle(fontSize: 12),
+                                      ),
+                                      trailing: IconButton(
+                                        icon: const Icon(Icons.cancel),
+                                        onPressed: () => Provider.of<CartModel>(
+                                                context,
+                                                listen: false)
+                                            .removeItemFromCart(index),
+                                      ),
+                                    ),
+                                  ),
+                                )
+                          : Column(
+                              children: [
+                                Lottie.network(
+                                  'https://assets2.lottiefiles.com/packages/lf20_svlw4qzf.json',
+                                  width: 200,
+                                  height: 200,
                                 ),
-                                child: ListTile(
-                                  leading: Image.asset(
-                                    value.cartItems[index][2],
-                                    height: 36,
-                                  ),
-                                  title: Text(
-                                    value.cartItems[index][0],
-                                    style: const TextStyle(fontSize: 18),
-                                  ),
-                                  subtitle: Text(
-                                    '\$' + value.cartItems[index][1],
-                                    style: const TextStyle(fontSize: 12),
-                                  ),
-                                  trailing: IconButton(
-                                    icon: const Icon(Icons.cancel),
-                                    onPressed: () => Provider.of<CartModel>(
-                                            context,
-                                            listen: false)
-                                        .removeItemFromCart(index),
+                                const SizedBox(
+                                  height: 10,
+                                ),
+                                const Text(
+                                  'No Data Found',
+                                  style: TextStyle(
+                                    fontSize: 30,
+                                    fontWeight: FontWeight.w700,
                                   ),
                                 ),
-                              ),
-                            ): Column(
-                        children: [
-                          Lottie.network(
-                            'https://assets2.lottiefiles.com/packages/lf20_svlw4qzf.json',
-                            width: 200,
-                            height: 200,
-                          ),
-                          const SizedBox(
-                            height: 10,
-                          ),
-                          const Text(
-                            'No Data Found',
-                            style: TextStyle(
-                              fontSize: 30,
-                              fontWeight: FontWeight.w700,
-                            ),
-                          ),
-                        ],
-                      ),
-                // Medicines(),
-              
+                              ],
+                            );
+                      // Medicines(),
                     },
                   ),
                 ),
