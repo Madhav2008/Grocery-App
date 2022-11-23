@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
             },
           ),
         ),
-        child: const Icon(Icons.shopping_bag),
+        child: const Icon(Icons.shopping_bag_outlined),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
