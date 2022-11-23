@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: const Size.fromHeight(50.0),
+        toolbarHeight:  Size.fromHeight(50.0),
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: Padding(
