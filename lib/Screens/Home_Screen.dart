@@ -20,10 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: Padding(
-          padding: const EdgeInsets.only(
-            left: 24.0,
-            top: 10.0,
-          ),
+          padding: const EdgeInsets.only(left: 24.0,),
           child: Icon(
             Icons.location_on,
             color: Colors.grey[700],
