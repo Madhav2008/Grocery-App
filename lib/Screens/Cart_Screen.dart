@@ -7,7 +7,8 @@ class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {bool isEmpty = false;
+  Widget build(BuildContext context) {
+    bool isEmpty = false;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -31,7 +32,6 @@ class CartScreen extends StatelessWidget {
                   ),
                 ),
               ),
-
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),
@@ -72,7 +72,6 @@ class CartScreen extends StatelessWidget {
                   ),
                 ),
               ),
-
               Padding(
                 padding: const EdgeInsets.all(36.0),
                 child: Container(
