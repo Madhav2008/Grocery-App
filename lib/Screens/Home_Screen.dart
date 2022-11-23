@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
               'Good morning,',
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20,),
             ),
           ),
           const SizedBox(height: 4),
