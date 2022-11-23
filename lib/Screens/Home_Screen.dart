@@ -37,7 +37,10 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: false,
         actions: [
           Padding(
-            padding: const EdgeInsets.only(right: 24.0, top: 10,),
+            padding: const EdgeInsets.only(
+              right: 24.0,
+              top: 10,
+            ),
             child: Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
