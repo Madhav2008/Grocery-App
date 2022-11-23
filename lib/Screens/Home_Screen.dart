@@ -16,7 +16,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(preferredSize: Size.fromHeight(50.0),
+      appBar: AppBar(
+        preferredSize: const Size.fromHeight(50.0),
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: Padding(
