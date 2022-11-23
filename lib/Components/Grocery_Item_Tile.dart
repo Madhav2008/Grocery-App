@@ -50,7 +50,7 @@ class GroceryItemTile extends StatelessWidget {
               child: Text(
                 '\₹$itemPrice',
                 style: GoogleFonts.arvo(
-                  color: Colors.white,letterSpacing: 
+                  color: Colors.white,letterSpacing: 1
                 ),
               ),
             )
