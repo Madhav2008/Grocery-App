@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
               style: GoogleFonts.arvo(
                 // fontWeight: FontWeight.bold,
                 fontSize: 20,
-                color: Colors.grey[400],
+                color: Colors.grey[600],
               ),
             ),
           ),
