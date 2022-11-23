@@ -39,7 +39,7 @@ class GroceryItemTile extends StatelessWidget {
             ),
             Text(
               itemName,
-              style: const TextStyle(
+              style: GoogleFonts.arvo(
                 fontSize: 16,
               ),
             ),
