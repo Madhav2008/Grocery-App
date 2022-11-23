@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Text(
               "Fresh Items",
               style: GoogleFonts.arvo(
-                fontWeight: FontWeight.bold,
+                // fontWeight: FontWeight.bold,
                 fontSize: 20,
                 color: Colors.grey,
               ),
