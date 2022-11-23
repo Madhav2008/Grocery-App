@@ -39,35 +39,38 @@ class CartScreen extends StatelessWidget {
                     itemCount: value.cartItems.length,
                     padding: const EdgeInsets.all(12),
                     itemBuilder: (context, index) {
-                      return isEmpty?Container():Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.grey[200],
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: ListTile(
-                            leading: Image.asset(
-                              value.cartItems[index][2],
-                              height: 36,
-                            ),
-                            title: Text(
-                              value.cartItems[index][0],
-                              style: const TextStyle(fontSize: 18),
-                            ),
-                            subtitle: Text(
-                              '\$' + value.cartItems[index][1],
-                              style: const TextStyle(fontSize: 12),
-                            ),
-                            trailing: IconButton(
-                              icon: const Icon(Icons.cancel),
-                              onPressed: () =>
-                                  Provider.of<CartModel>(context, listen: false)
-                                      .removeItemFromCart(index),
-                            ),
-                          ),
-                        ),
-                      );
+                      return isEmpty
+                          ? Container()
+                          : Padding(
+                              padding: const EdgeInsets.all(12.0),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.grey[200],
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: ListTile(
+                                  leading: Image.asset(
+                                    value.cartItems[index][2],
+                                    height: 36,
+                                  ),
+                                  title: Text(
+                                    value.cartItems[index][0],
+                                    style: const TextStyle(fontSize: 18),
+                                  ),
+                                  subtitle: Text(
+                                    '\$' + value.cartItems[index][1],
+                                    style: const TextStyle(fontSize: 12),
+                                  ),
+                                  trailing: IconButton(
+                                    icon: const Icon(Icons.cancel),
+                                    onPressed: () => Provider.of<CartModel>(
+                                            context,
+                                            listen: false)
+                                        .removeItemFromCart(index),
+                                  ),
+                                ),
+                              ),
+                            );
                     },
                   ),
                 ),
