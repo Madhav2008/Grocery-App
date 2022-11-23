@@ -39,7 +39,7 @@ class CartScreen extends StatelessWidget {
                     itemCount: value.cartItems.length,
                     padding: const EdgeInsets.all(12),
                     itemBuilder: (context, index) {
-                      return isEnPadding(
+                      return isEmpty?Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: Container(
                           decoration: BoxDecoration(
