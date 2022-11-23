@@ -92,7 +92,6 @@ class CartScreen extends StatelessWidget {
                                 ),
                               ],
                             );
-                      // Medicines(),
                     },
                   ),
                 ),
