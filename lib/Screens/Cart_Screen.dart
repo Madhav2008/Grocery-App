@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:grocery_app/Models/Cart_Model.dart';
 import 'package:provider/provider.dart';
-import 'package:';
+import 'package:lottie/';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
