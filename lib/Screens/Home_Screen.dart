@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 48),
-           Padding(
+          Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
               'Good morning,',
