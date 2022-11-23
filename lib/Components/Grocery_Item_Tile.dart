@@ -40,7 +40,7 @@ class GroceryItemTile extends StatelessWidget {
             Text(
               itemName,
               style: GoogleFonts.arvo(
-                fontSize: 16,
+                fontSize: 16,fontWeight: 
               ),
             ),
             MaterialButton(
