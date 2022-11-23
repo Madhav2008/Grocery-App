@@ -67,14 +67,14 @@ class _HomeScreenState extends State<HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 48),
-
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
-            child: Text('Good morning,',style: TextStyle(),),
+            child: Text(
+              'Good morning,',
+              style: TextStyle(),
+            ),
           ),
-
           const SizedBox(height: 4),
-
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
@@ -85,16 +85,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-
           const SizedBox(height: 24),
-
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
             child: Divider(),
           ),
-
           const SizedBox(height: 24),
-
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
@@ -105,7 +101,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-
           Expanded(
             child: Consumer<CartModel>(
               builder: (context, value, child) {
