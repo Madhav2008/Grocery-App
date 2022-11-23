@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
               "Fresh Items",
               style: GoogleFonts.arvo(
                 //fontWeight: FontWeight.bold,
-                fontSize: 18,
+                fontSize: 20,
               ),
             ),
           ),
