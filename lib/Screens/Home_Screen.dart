@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 0,
         leading: Padding(
           padding: const EdgeInsets.only(
-            left: 24.0,
+            left: 24.0,top: 10.0,
           ),
           child: Icon(
             Icons.location_on,
