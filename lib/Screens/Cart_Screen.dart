@@ -78,7 +78,7 @@ class CartScreen extends StatelessWidget {
                                 )
                     },
                   ),
-                ),
+                )
                           : Column(
                               children: [
                                 Lottie.network(
