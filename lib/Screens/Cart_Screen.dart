@@ -20,7 +20,7 @@ class _CartScreenState extends State<CartScreen> {
     super.initState();
     Future.delayed(
       const Duration(
-        seconds: 20,
+        seconds: 2,
       ),
       () {
         setState(() {
