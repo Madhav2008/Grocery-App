@@ -33,7 +33,12 @@ class CartScreen extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-              ),
+              ),isLoading
+                          ? isEmpty
+                              ? Lottie.network(
+                                  'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                                )
+                              : 
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),
