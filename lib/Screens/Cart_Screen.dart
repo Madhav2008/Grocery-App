@@ -77,25 +77,7 @@ class CartScreen extends StatelessWidget {
                                     ),
                                   ),
                                 )
-                          : Column(
-                              children: [
-                                Lottie.network(
-                                  'https://assets2.lottiefiles.com/packages/lf20_svlw4qzf.json',
-                                  width: 200,
-                                  height: 200,
-                                ),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                const Text(
-                                  'No Data Found',
-                                  style: TextStyle(
-                                    fontSize: 30,
-                                    fontWeight: FontWeight.w700,
-                                  ),
-                                ),
-                              ],
-                            );
+                          
                     },
                   ),
                 ),
