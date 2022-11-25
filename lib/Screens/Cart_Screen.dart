@@ -7,7 +7,8 @@ import 'package:provider/provider.dart';
 import 'package:lottie/lottie.dart';
 
 class CartScreen extends StatelessWidget {
-  const CartScreen({super.key});@override
+  const CartScreen({super.key});
+  @override
   void initState() {
     super.initState();
     startTime();
