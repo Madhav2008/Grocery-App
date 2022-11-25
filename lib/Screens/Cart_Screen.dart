@@ -6,8 +6,14 @@ import 'package:grocery_app/Models/Cart_Model.dart';
 import 'package:provider/provider.dart';
 import 'package:lottie/lottie.dart';
 
-class CartScreen extends StatelessWidget {
+class CartScreen extends StatefulWidget {
   const CartScreen({super.key});
+
+  @override
+  State<CartScreen> createState() => _CartScreenState();
+}
+
+class _CartScreenState extends State<CartScreen> {
   @override
   void initState() {
     super.initState();
