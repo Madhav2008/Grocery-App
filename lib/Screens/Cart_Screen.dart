@@ -33,7 +33,7 @@ class _CartScreenState extends State<CartScreen> {
   @override
   Widget build(BuildContext context) {
     // bool isEmpty = false;
-    bool isLoading = true;
+    // bool isLoading = true;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
