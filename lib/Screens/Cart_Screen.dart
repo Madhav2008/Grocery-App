@@ -82,11 +82,11 @@ class CartScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
                     gradient: const LinearGradient(
-                    colors: [
-                      Color(0xff515acd),
-                      Color(0xff4140b7),
-                    ],
-                  ),
+                      colors: [
+                        Color(0xff515acd),
+                        Color(0xff4140b7),
+                      ],
+                    ),
                   ),
                   padding: const EdgeInsets.all(24),
                   child: Row(
