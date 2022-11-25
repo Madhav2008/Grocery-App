@@ -81,7 +81,12 @@ class CartScreen extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: const Color(0xff7785DB),
+                    gradient: const LinearGradient(
+                    colors: [
+                      Color(0xff515acd),
+                      Color(0xff4140b7),
+                    ],
+                  ),
                   ),
                   padding: const EdgeInsets.all(24),
                   child: Row(
