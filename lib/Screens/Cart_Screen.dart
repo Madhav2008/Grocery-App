@@ -13,7 +13,8 @@ class CartScreen extends StatefulWidget {
   State<CartScreen> createState() => _CartScreenState();
 }
 
-class _CartScreenState extends State<CartScreen> {bool isLoading = true;
+class _CartScreenState extends State<CartScreen> {
+  bool isLoading = true;
   @override
   void initState() {
     super.initState();
