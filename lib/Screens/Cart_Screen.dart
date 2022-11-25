@@ -17,7 +17,9 @@ class _CartScreenState extends State<CartScreen> {
   bool isLoading = true;
   @override
   void initState() {
-    super.initState();
+    super.initState();Lottie.network(
+          'https://assets4.lottiefiles.com/private_files/lf30_cjoryulu.json',
+        );
     Future.delayed(
       const Duration(
         seconds: 2,
