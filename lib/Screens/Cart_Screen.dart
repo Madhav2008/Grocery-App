@@ -11,8 +11,6 @@ class CartScreen extends StatelessWidget {
   @override
   void initState() {
     super.initState();
-    startTime();
-    _daysList = _days.getCurrentDays();
     Future.delayed(
       const Duration(
         seconds: 20,
