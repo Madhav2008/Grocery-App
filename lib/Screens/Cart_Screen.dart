@@ -11,7 +11,7 @@ class CartScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    bool isEmpty = true;
+    bool isEmpty = false;
     bool isLoading = true;
     return Scaffold(
       appBar: AppBar(
