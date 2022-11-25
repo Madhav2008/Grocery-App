@@ -66,7 +66,7 @@ class IntroScreen extends StatelessWidget {
                   gradient: const LinearGradient(
                     colors: [
                       Color(0xff4140b7),
-                      Color(0xff4140b7),
+                      Color(0xff515acd),
                     ],
                   ),
                 ),
