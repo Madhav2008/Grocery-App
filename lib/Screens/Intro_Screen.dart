@@ -20,7 +20,7 @@ class IntroScreen extends StatelessWidget {
                 bottom: 20,
               ),
               child: Image.asset(
-                '../assets/images/intro.png',
+                '../assets/images/intro1.png',
                 width: 400,
                 height: 300,
               ),
