@@ -76,6 +76,9 @@ class CartScreen extends StatelessWidget {
                                     ),
                                   ),
                                 )
+                    },
+                  ),
+                ),
                           : Column(
                               children: [
                                 Lottie.network(
@@ -95,9 +98,6 @@ class CartScreen extends StatelessWidget {
                                 ),
                               ],
                             );
-                    },
-                  ),
-                ),
               ),
               Padding(
                 padding: const EdgeInsets.all(36.0),
