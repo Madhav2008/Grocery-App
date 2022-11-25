@@ -25,9 +25,6 @@ class _CartScreenState extends State<CartScreen> {
         seconds: 2,
       ),
       () {
-        Lottie.network(
-          'https://assets4.lottiefiles.com/private_files/lf30_cjoryulu.json',
-        );
         setState(() {
           isLoading = false;
         });
