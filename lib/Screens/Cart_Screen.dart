@@ -34,19 +34,19 @@ class CartScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              Expanded(
+              Expanded(isLoading
+                          ? isEmpty
+                              ? Lottie.network(
+                                  'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                                )
+                              : 
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),
                   child: ListView.builder(
                     itemCount: value.cartItems.length,
                     padding: const EdgeInsets.all(12),
                     itemBuilder: (context, index) {
-                      return isLoading
-                          ? isEmpty
-                              ? Lottie.network(
-                                  'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
-                                )
-                              : Padding(
+                      return Padding(
                                   padding: const EdgeInsets.all(12.0),
                                   child: Container(
                                     decoration: BoxDecoration(
