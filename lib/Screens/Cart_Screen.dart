@@ -7,7 +7,22 @@ import 'package:provider/provider.dart';
 import 'package:lottie/lottie.dart';
 
 class CartScreen extends StatelessWidget {
-  const CartScreen({super.key});
+  const CartScreen({super.key});@override
+  void initState() {
+    super.initState();
+    startTime();
+    _daysList = _days.getCurrentDays();
+    Future.delayed(
+      const Duration(
+        seconds: 20,
+      ),
+      () {
+        setState(() {
+          isLoading = false;
+        });
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
