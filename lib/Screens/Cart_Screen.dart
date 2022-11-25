@@ -6,37 +6,13 @@ import 'package:grocery_app/Models/Cart_Model.dart';
 import 'package:provider/provider.dart';
 import 'package:lottie/lottie.dart';
 
-class CartScreen extends StatefulWidget {
+class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
 
   @override
-  State<CartScreen> createState() => _CartScreenState();
-}
-
-class _CartScreenState extends State<CartScreen> {
-  bool isLoading = true;
-  @override
-  void initState() {
-    super.initState();
-    Lottie.network(
-      'https://assets4.lottiefiles.com/private_files/lf30_cjoryulu.json',
-    );
-    Future.delayed(
-      const Duration(
-        seconds: 2,
-      ),
-      () {
-        setState(() {
-          isLoading = false;
-        });
-      },
-    );
-  }
-
-  @override
   Widget build(BuildContext context) {
-    // bool isEmpty = false;
-    // bool isLoading = true;
+    bool isEmpty = false;
+    bool isLoading = true;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
