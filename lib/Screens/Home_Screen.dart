@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 borderRadius: BorderRadius.circular(40),
               ),
               child: const Icon(
-                Icons.person,size: ,
+                Icons.person,size: 25,
                 color: Colors.grey,
               ),
             ),
