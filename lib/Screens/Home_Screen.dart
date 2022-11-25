@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             child: Container(
               // padding: const EdgeInsets.all(10),
-              width: 30,
+              width: 50,
               height: 30,
               decoration: BoxDecoration(
                 color: Colors.black,
