@@ -37,12 +37,7 @@ class CartScreen extends StatelessWidget {
                 ),
               ),
               Expanded(
-                child: isLoading
-                    ? value.cartItems.length == 0
-                        ? Lottie.network(
-                            'https://assets4.lottiefiles.com/private_files/lf30_cjoryulu.json',
-                          )
-                        : Padding(
+                child: Padding(
                             padding: const EdgeInsets.all(12.0),
                             child: ListView.builder(
                               itemCount: value.cartItems.length,
