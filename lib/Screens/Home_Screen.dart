@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               child: const Icon(
                 Icons.emoji_emotions,
-                size: 30,
+                size: 25,
                 color: Colors.yellow,
               ),
             ),
