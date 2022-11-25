@@ -42,17 +42,14 @@ class _HomeScreenState extends State<HomeScreen> {
               top: 10,
             ),
             child: Container(
-              // padding: const EdgeInsets.all(10),
-              width: 50,
-              height: 40,
+              padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: Colors.black,
-                borderRadius: BorderRadius.circular(25),
+                color: Colors.grey[200],
+                borderRadius: BorderRadius.circular(40),
               ),
               child: const Icon(
-                Icons.emoji_emotions,
-                size: 30,
-                color: Colors.yellow,
+                Icons.person,
+                color: Colors.grey,
               ),
             ),
           ),
