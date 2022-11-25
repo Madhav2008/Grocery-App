@@ -65,8 +65,8 @@ class IntroScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(25),
                   gradient: const LinearGradient(
                     colors: [
-                      Color(0xff4140b7),
                       Color(0xff515acd),
+                      Color(0xff4140b7),
                     ],
                   ),
                 ),
