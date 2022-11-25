@@ -74,7 +74,7 @@ class CartScreen extends StatelessWidget {
                     );
                   },
                 ),
-              )),
+              ),),
               Padding(
                 padding: const EdgeInsets.all(36.0),
                 child: Container(
