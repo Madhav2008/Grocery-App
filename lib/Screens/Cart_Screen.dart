@@ -38,7 +38,7 @@ class CartScreen extends StatelessWidget {
               ),
               Expanded(
                 child: isLoading
-                    ? value.cartItems
+                    ? value.cartItems.length
                         ? Lottie.network(
                             'https://assets4.lottiefiles.com/private_files/lf30_cjoryulu.json',
                           )
