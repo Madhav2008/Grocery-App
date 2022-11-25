@@ -35,18 +35,18 @@ class CartScreen extends StatelessWidget {
                 ),
               ),
               Expanded(
-                child:isLoading
-                          ? isEmpty
-                              ? Lottie.network(
-                                  'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
-                                )
-                              :  Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: ListView.builder(
-                    itemCount: value.cartItems.length,
-                    padding: const EdgeInsets.all(12),
-                    itemBuilder: (context, index) {
-                      return Padding(
+                child: isLoading
+                    ? isEmpty
+                        ? Lottie.network(
+                            'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                          )
+                        : Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: ListView.builder(
+                              itemCount: value.cartItems.length,
+                              padding: const EdgeInsets.all(12),
+                              itemBuilder: (context, index) {
+                                return Padding(
                                   padding: const EdgeInsets.all(12.0),
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -75,29 +75,29 @@ class CartScreen extends StatelessWidget {
                                       ),
                                     ),
                                   ),
-                                ),
-                    },
-                  ),
-                )
-                          : Column(
-                              children: [
-                                Lottie.network(
-                                  'https://assets2.lottiefiles.com/packages/lf20_svlw4qzf.json',
-                                  width: 200,
-                                  height: 200,
-                                ),
-                                const SizedBox(
-                                  height: 10,
-                                ),
-                                const Text(
-                                  'No Data Found',
-                                  style: TextStyle(
-                                    fontSize: 30,
-                                    fontWeight: FontWeight.w700,
-                                  ),
-                                ),
-                              ],
+                                );
+                              },
                             ),
+                          )
+                    : Column(
+                        children: [
+                          Lottie.network(
+                            'https://assets2.lottiefiles.com/packages/lf20_svlw4qzf.json',
+                            width: 200,
+                            height: 200,
+                          ),
+                          const SizedBox(
+                            height: 10,
+                          ),
+                          const Text(
+                            'No Data Found',
+                            style: TextStyle(
+                              fontSize: 30,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
+                        ],
+                      ),
               ),
               Padding(
                 padding: const EdgeInsets.all(36.0),
