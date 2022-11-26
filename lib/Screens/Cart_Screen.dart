@@ -57,7 +57,8 @@ class CartScreen extends StatelessWidget {
                             ),
                             title: Text(
                               value.cartItems[index][0],
-                              style: const TextStyle(fontSize: 18,fontWeight: FontWeight.bold),
+                              style: const TextStyle(
+                                  fontSize: 18, fontWeight: FontWeight.bold),
                             ),
                             subtitle: Text(
                               '₹' + value.cartItems[index][1],
