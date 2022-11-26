@@ -12,7 +12,7 @@ class CartBody extends StatelessWidget {
 
   CartBody({
     super.key,
-    required this.itemName,
+    // required this.itemName,
     required this.itemPrice,
     required this.imagePath,
     required this.color,
