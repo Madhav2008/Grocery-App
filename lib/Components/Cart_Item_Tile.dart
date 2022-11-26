@@ -7,6 +7,7 @@ class CartItemTile extends StatelessWidget {
   final String itemName;
   final String itemPrice;
   final String imagePath;
+  final String imagePath;
   final color;
   void Function()? onPressed;
 
