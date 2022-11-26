@@ -64,7 +64,7 @@ class CartScreen extends StatelessWidget {
                             ),
                             subtitle: Text(
                               '₹' + value.cartItems[index][1],
-                              style: const GoogleFonts.arvo(fontSize: 12),
+                              style: GoogleFonts.arvo(fontSize: 12),
                             ),
                             trailing: IconButton(
                               icon: const Icon(Icons.cancel),
