@@ -142,7 +142,7 @@ class CartScreen extends StatelessWidget {
           ],
         );
       },
-    );
+    ),
     );
   }
 }
