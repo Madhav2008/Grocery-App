@@ -143,6 +143,6 @@ class CartItemTile extends StatelessWidget {
             ],
           );
         },
-      ),
+      );
   }
 }
