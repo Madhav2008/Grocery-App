@@ -23,7 +23,7 @@ class CartScreen extends StatelessWidget {
         ),
       ),
       body: CartBody(
-        itemName: itemName,
+        // itemName: itemName,
         itemPrice: itemPrice,
         imagePath: imagePath,
         color: color,
