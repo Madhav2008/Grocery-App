@@ -21,7 +21,7 @@ class CartBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Column(
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
