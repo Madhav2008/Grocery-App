@@ -10,7 +10,7 @@ class CartModel extends ChangeNotifier {
     ],
     [
       "Banana",
-      "2.50",
+      "50",
       "../assets/images/banana.png",
       Colors.yellow,
     ],
