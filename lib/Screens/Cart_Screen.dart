@@ -11,7 +11,7 @@ class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
 
   @override
-  Widget build(BuildContext index) {
+  Widget build(BuildContext context) {
     bool isEmpty = false;
     bool isLoading = true;
     return Scaffold(
