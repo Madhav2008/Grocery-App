@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:grocery_app/Models/Cart_Model.dart';
 
 class CartItemTile extends StatelessWidget {
   final String itemName;
