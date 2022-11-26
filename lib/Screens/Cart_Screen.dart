@@ -48,6 +48,7 @@ class CartScreen extends StatelessWidget {
                         child: Container(
                           decoration: BoxDecoration(
                             color: value.shopItems[index],
+                            color: value.shopItems[index],
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: ListTile(
