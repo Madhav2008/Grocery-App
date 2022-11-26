@@ -22,7 +22,7 @@ class CartScreen extends StatelessWidget {
           color: Colors.grey[800],
         ),
       ),
-      body: return Consumer<CartModel>(
+      body:Consumer<CartModel>(
       builder: (context, value, child) {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
