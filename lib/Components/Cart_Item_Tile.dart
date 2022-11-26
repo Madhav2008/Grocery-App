@@ -8,7 +8,7 @@ class CartBody extends StatelessWidget {
   // final String itemPrice;
   // final String imagePath;
   // final color;
-  void Function()? onPressed;
+  // void Function()? onPressed;
 
   CartBody({
     super.key,
