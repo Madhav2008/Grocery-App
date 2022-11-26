@@ -17,7 +17,6 @@ class CartItemTile extends StatelessWidget {
     required this.imagePath,
     required this.color,
     required this.onPressed,
-    required this.value,
   });
 
   @override
@@ -63,6 +62,6 @@ class CartItemTile extends StatelessWidget {
                       );
                     },
                   ),
-                );
+                ),;
   }
 }
