@@ -15,19 +15,20 @@ class CartScreen extends StatelessWidget {
     bool isEmpty = false;
     bool isLoading = true;
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          iconTheme: IconThemeData(
-            color: Colors.grey[800],
-          ),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        iconTheme: IconThemeData(
+          color: Colors.grey[800],
         ),
-        body: CartBody(
-          itemName: itemName,
-          itemPrice: itemPrice,
-          imagePath: imagePath,
-          color: color,
-          onPressed: onPressed,
-        ),);
+      ),
+      body: CartBody(
+        itemName: itemName,
+        itemPrice: itemPrice,
+        imagePath: imagePath,
+        color: color,
+        onPressed: onPressed,
+      ),
+    );
   }
 }
