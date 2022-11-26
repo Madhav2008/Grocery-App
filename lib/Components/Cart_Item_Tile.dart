@@ -18,7 +18,6 @@ class CartBody extends StatelessWidget {
     required this.imagePath,
     required this.color,
     required this.onPressed,
-    required this.value,
   });
 
   @override
