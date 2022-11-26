@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class GroceryItemTile extends StatelessWidget {
+class CartItemTile extends StatelessWidget {
   final String itemName;
   final String itemPrice;
   final String imagePath;
   final color;
   void Function()? onPressed;
 
-  GroceryItemTile({
+  CartItemTile({
     super.key,
     required this.itemName,
     required this.itemPrice,
