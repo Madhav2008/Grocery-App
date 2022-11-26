@@ -23,7 +23,7 @@ class CartScreen extends StatelessWidget {
         ),
       ),
       body: Consumer<CartModel>(
-        builder: (context, value, child, index) {
+        builder: (value, child, index) {
           return CartBody(
             value: value,
             color: value.shopItems[index][3],
