@@ -20,44 +20,36 @@ class CartItemTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(12),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(12),
-          color: color[100],
-        ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40.0),
-              child: Image.asset(
-                imagePath,
-                height: 64,
-              ),
-            ),
-            Text(
-              itemName,
-              style: GoogleFonts.arvo(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            MaterialButton(
-              onPressed: onPressed,
-              color: color[800],
-              child: Text(
-                '₹$itemPrice',
-                style: GoogleFonts.arvo(
-                  color: Colors.white,
-                  letterSpacing: 1,
-                ),
-              ),
-            )
-          ],
-        ),
-      ),
-    );
+                        padding: const EdgeInsets.all(12.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: color[100],
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: ListTile(
+                            leading: Image.asset(
+                              value.cartItems[index][2],
+                              height: 36,
+                            ),
+                            title: Text(
+                              value.cartItems[index][0],
+                              style: GoogleFonts.arvo(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            subtitle: Text(
+                              '₹' + value.cartItems[index][1],
+                              style: GoogleFonts.arvo(fontSize: 12),
+                            ),
+                            trailing: IconButton(
+                              icon: const Icon(Icons.cancel),
+                              onPressed: () =>
+                                  Provider.of<CartModel>(context, listen: false)
+                                      .removeItemFromCart(index),
+                            ),
+                          ),
+                        ),
+                      );
   }
 }
