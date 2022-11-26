@@ -23,10 +23,11 @@ class CartScreen extends StatelessWidget {
           ),
         ),
         body: CartBody(
-            itemName: itemName,
-            itemPrice: itemPrice,
-            imagePath: imagePath,
-            color: color,
-            onPressed: onPressed,));
+          itemName: itemName,
+          itemPrice: itemPrice,
+          imagePath: imagePath,
+          color: color,
+          onPressed: onPressed,
+        ),);
   }
 }
