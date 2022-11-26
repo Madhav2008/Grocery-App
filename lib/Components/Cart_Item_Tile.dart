@@ -15,7 +15,7 @@ class CartBody extends StatelessWidget {
     // required this.itemName,
     // required this.itemPrice,
     // required this.imagePath,
-    // required this.color,
+    required this.color,
     // required this.onPressed,
   });
 
