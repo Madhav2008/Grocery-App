@@ -26,7 +26,7 @@ class CartScreen extends StatelessWidget {
         // itemName: itemName,
         // itemPrice: itemPrice,
         // imagePath: imagePath,
-        color: color,
+        color: value,
         // onPressed: onPressed,
       ),
     );
