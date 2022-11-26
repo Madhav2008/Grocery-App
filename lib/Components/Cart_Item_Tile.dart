@@ -64,6 +64,6 @@ class CartItemTile extends StatelessWidget {
                       );
                     },
                   ),
-                ),;
+                );
   }
 }
