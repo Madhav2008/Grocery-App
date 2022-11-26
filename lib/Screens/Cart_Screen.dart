@@ -57,7 +57,7 @@ class CartScreen extends StatelessWidget {
                             ),
                             title: Text(
                               value.cartItems[index][0],
-                              style: GoogleFonts.dancingScript()
+                              style: GoogleFonts.dancingScript(
                                 fontSize: 18,
                                 fontWeight: FontWeight.bold,
                               ),
