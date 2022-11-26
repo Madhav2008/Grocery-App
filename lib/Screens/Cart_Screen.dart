@@ -48,7 +48,7 @@ class CartScreen extends StatelessWidget {
                         padding: const EdgeInsets.all(12.0),
                         child: Container(
                           decoration: BoxDecoration(
-                            color: color,
+                            color: color[100],
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: ListTile(
