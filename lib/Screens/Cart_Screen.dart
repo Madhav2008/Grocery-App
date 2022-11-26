@@ -13,7 +13,7 @@ class CartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     bool isEmpty = false;
     bool isLoading = true;
-    Color color = value.shopItems[index];
+    var color = value.shopItems[index];
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
