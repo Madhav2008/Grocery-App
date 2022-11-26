@@ -27,6 +27,6 @@ class CartScreen extends StatelessWidget {
             itemPrice: itemPrice,
             imagePath: imagePath,
             color: color,
-            onPressed: onPressed));
+            onPressed: onPressed,));
   }
 }
