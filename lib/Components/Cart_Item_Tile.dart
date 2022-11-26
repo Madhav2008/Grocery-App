@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 class CartBody extends StatelessWidget {
   // final String itemName;
   // final String itemPrice;
-  final String imagePath;
+  final String value;
   final color;
   // void Function()? onPressed;
 
