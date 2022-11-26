@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:grocery_app/Components/Cart_Item_Tile.dart';
 import 'package:grocery_app/Models/Cart_Model.dart';
 import 'package:provider/provider.dart';
 import 'package:lottie/lottie.dart';
