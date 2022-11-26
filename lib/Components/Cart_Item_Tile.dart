@@ -7,6 +7,7 @@ class CartItemTile extends StatelessWidget {
   final String itemName;
   final String itemPrice;
   final String imagePath;
+  final String value;
   final color;
   void Function()? onPressed;
 
@@ -17,6 +18,7 @@ class CartItemTile extends StatelessWidget {
     required this.imagePath,
     required this.color,
     required this.onPressed,
+    required this.value,
   });
 
   @override
@@ -62,6 +64,6 @@ class CartItemTile extends StatelessWidget {
                       );
                     },
                   ),
-                ),;
+                );
   }
 }
