@@ -4,7 +4,7 @@ import 'package:grocery_app/Models/Cart_Model.dart';
 import 'package:provider/provider.dart';
 
 class CartBody extends StatelessWidget {
-  final String itemName;
+  // final String itemName;
   final String itemPrice;
   final String imagePath;
   final color;
