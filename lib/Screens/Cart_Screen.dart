@@ -42,7 +42,7 @@ class CartScreen extends StatelessWidget {
                   child: ListView.builder(
                     itemCount: value.cartItems.length,
                     padding: const EdgeInsets.all(12),
-                    itemBuilder: (context, index) {
+                    itemBuilder: (context, index) {Color color = value.shopItems[index];
                       return Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: Container(
