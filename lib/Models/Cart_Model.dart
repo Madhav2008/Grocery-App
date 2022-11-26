@@ -4,7 +4,7 @@ class CartModel extends ChangeNotifier {
   final List _shopItems = const [
     [
       "Avocado",
-      "4.00",
+      "100",
       "../assets/images/avocado.png",
       Colors.green,
     ],
